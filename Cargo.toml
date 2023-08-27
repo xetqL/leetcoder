@@ -10,6 +10,10 @@ path = "src/missing-numbers/sum/main.rs"
 name = "missing-numbers-array"
 path = "src/missing-numbers/array/main.rs"
 
+[[bin]]
+name = "number-of-visible-people-in-a-queue"
+path = "src/number-of-visible-people-in-a-queue/main.rs"
+
 [package]
 name = "leetcoder"
 version = "0.1.0"

@@ -29,10 +29,7 @@ impl PartialOrd for W {
 
 fn can_see_persons_count(mut heights: Vec<i32>) -> Vec<i32> {
     let mut sight : Vec<i32> = (0i32..heights.len() as i32).rev().collect();
-    let mut stack: Vec<i32> = Vec::new();
-    if let Some(h) = heights.pop(){
-        stack.push(h);
-    }
+    let mut stack: Vec<i32> = vec![heights.pop().unwrap()];
     sight[heights.len()] = 0;
     for (lh_idx, lh_height) in heights.iter().enumerate().rev() {
         let size = stack.len();        
