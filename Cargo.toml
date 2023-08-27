@@ -2,6 +2,14 @@
 name = "nearest-exit-from-entrance-in-maze"
 path = "src/nearest-exit-from-entrance-in-maze/main.rs"
 
+[[bin]]
+name = "missing-numbers-sum"
+path = "src/missing-numbers/sum/main.rs"
+
+[[bin]]
+name = "missing-numbers-array"
+path = "src/missing-numbers/array/main.rs"
+
 [package]
 name = "leetcoder"
 version = "0.1.0"
